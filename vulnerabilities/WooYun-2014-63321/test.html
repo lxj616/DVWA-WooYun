@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<script>
+
+function checkDomain(url) {
+	var reg = new RegExp(/^http\:\/\/[^.]*\.paipai.com($|(\/[^<>\'\"]*))/);
+	if(reg.test(url))
+	{
+		alert('passed');
+	}
+	else
+	{
+		alert('failed');
+	}
+}
+
+</script>
+
+试着绕过对域名的检查!
+这个页面只是用来测试匹配的，并不会有成功提示，如果你觉得你已经找到了答案，请直接去查看原始的漏洞报告吧...
+
+<form action="#" method="GET">
+	<input type="text" name="str">
+	<input type="submit" name="Submit" value="Submit" onclick=checkDomain(str.value)>
+</form>
+
+
+</body>
+</html>
+

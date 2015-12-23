@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<script>
+var srcAllowDomain = ['sina\\.com\\.cn','weibo\\.com','sinaimg\\.cn'],urlAllowDomain = ['sina\\.com\\.cn','weibo\\.com','allyes\\.com', 'admaster\\.com\\.cn', 'miaozhen\\.com'];
+
+function checkDomain(url, allowDomain) {
+	var reg = new RegExp('^(http|https):\\/\\/([^\\/\\?#]+\\.)*(' + allowDomain.join('|') + ')(\\/|\\?|#|$)');
+	if(reg.test(url))
+	{
+		alert('passed');
+	}
+	else
+	{
+		alert('failed');
+	}
+}
+
+</script>
+
+尝试绕过对域名的检测!
+这个页面只是用来测试匹配的，不会有成功的提示，如果你觉得你已经找到了答案，直接回去查看原始的漏洞报告吧
+
+<form action="#" method="GET">
+	<input type="text" name="str">
+	<input type="submit" name="Submit" value="Submit" onclick=checkDomain(str.value,srcAllowDomain)>
+</form>
+
+
+</body>
+</html>
+

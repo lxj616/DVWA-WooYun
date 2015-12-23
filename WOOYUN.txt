@@ -1,0 +1,28 @@
+WooYun DVWA edition  
+      乌云DVWA
+===========================
+
+This app is based on DVWA v1.0.8 and obeys GNU GENERAL PUBLIC LICENSE 
+本应用基于DVWA v1.0.8 版本开发 并且遵守GNU软件协议
+
+
+Referenced Bug reports
+      引用的漏洞报告
+============================
+
+All chanllenges are based on real bugs reported on wooyun.org.
+The real bugs have been fixed and is opened to the public.
+
+所有的章节均基于在wooyun.org报告过的真实漏洞
+真实的漏洞均已经被修复并且对公众公开
+
+
+Thanks to
+   致谢
+============
+
+Thanks to the DVWA team , we find it quite convenient using DVWA framework.
+感谢DVWA开发团队，我们使用DVWA框架开发时感觉非常的方便。
+
+Thanks to the whitehats on wooyun.org , YOU ALWAYS SURPRISE EVERYONE WITH IMPRESSIVE HACKING SKILLS！
+感谢乌云的白帽子们，你们总能用高超的安全技术震惊世人！
