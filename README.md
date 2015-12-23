@@ -1,4 +1,12 @@
-![alt text](http://www.randomstorm.com/images/dvwa_grey.png "DVWA")
+# DVWA-WooYun #
+
+DVWA-WooYun is a plugin-set for DVWA , with plugins based on wooyun.org real bug reports
+
+It should have been a fork of the RandomStorm/DVWA , But while I was coding it , I didn't know a thing about github :( 
+
+And now I do , so scavenged old codes to github
+
+And I modified lot of things , can't remember why , just messed around , It seems to be not able to merge with the original DVWA now
 
 DAMN VULNERABLE WEB APP
 =======================
